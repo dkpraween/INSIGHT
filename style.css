@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #ffffff;
+  --header-color: #d8315b;
+  --card-color: #e7e7c3;
+  --card-sec-color: #7fbfedfe;
+}
+body {
+  background-color: var(--primary-color) !important;
+}
+/* Navbar Section */
+/* Background color and FontColor of Navbar */
+.bg-color {
+  background-color: var(--primary-color) !important;
+}
+.font-color {
+  color: var(--secondary-color) !important;
+}
+.card-color {
+  background-color: var(--card-color);
+}
+.card-sec-color {
+  background-color: var(--card-sec-color);
+}
+.navbar a {
+  color: var(--secondary-color) !important;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+/* Background color and FontColor of Navbar-->Dropdown */
+.dropdown-menu {
+  background-color: white !important;
+}
+.dropdown-menu a {
+  color: var(--primary-color) !important;
+}
+
+/*--------- Section-Carousel--------- */
+
+/* Image height Adjust */
+.d-block {
+  height: 500px;
+}
+
+/* Section-Click-Here-container */
+.click-here-container {
+  text-align: center;
+}
+.click-here-container a {
+  text-decoration: none;
+  color: #3e92cc;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.click-here-container a:hover {
+  text-decoration: underline;
+}
+/* Section-About */
+.card {
+  text-align: center;
+  background-color: var(--card-color);
+}
+.card-container .card ul li {
+  list-style: none;
+}
+.card-header {
+  color: #1e1b18;
+}
+.card-title {
+  color: #1e1b18;
+}
+
+
+.about-content-container {
+  margin-left: 1.5rem;
+}
+.about-header {
+  color: var(--header-color);
+}
